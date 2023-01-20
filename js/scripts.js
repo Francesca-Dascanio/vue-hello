@@ -11,11 +11,23 @@ createApp ( {
             text: 'text',
             color: 'red',
             image: 'https://unsplash.it/300/300?image=171',
+            inputValue: '',
+            button: 'Clicca qui'
 
         }
     },
     methods: {
- 
+        greetings: function () {
+
+            if (this.inputValue == 'pioggia') {
+                'Sei pazzo'
+            }
+            else {
+                'Ciao'
+            }
+
+            
+        }
         }
 }).mount('#app');
 

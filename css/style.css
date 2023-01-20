@@ -8,12 +8,20 @@
 }
 
 /* REGOLE H1 */
+#app {
+    position: relative;
+}
+
 .red {
     color: red;
 }
 
 .margin {
     margin: 1rem;
+}
+
+.padding {
+    padding: 1rem;
 }
 
 .text {
@@ -23,5 +31,12 @@
 .img-container {
     display: flex;
     justify-content: center;
+}
+
+
+.transform {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 

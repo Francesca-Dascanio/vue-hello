@@ -18,6 +18,13 @@
             <div class="img-container">
                 <img :src="image" >
             </div>
+            <p class="text padding">
+                Cosa ti ricorda questa immagine?
+                <input type="text" v-model="inputValue">
+            </p>
+            <div class="text padding">
+                Questa immagine mi ricorda: {{inputValue}}
+            </div>
 
         </div>
         
