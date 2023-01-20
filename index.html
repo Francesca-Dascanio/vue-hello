@@ -9,8 +9,19 @@
         <link rel="stylesheet" href="css/style.css">        
     </head>
     <body>
-        
 
+        <div id="app">
+
+            <h1 :class="color" class="margin text">
+                {{message}}
+            </h1>
+            <div class="img-container">
+                <img :src="image" >
+            </div>
+
+        </div>
+        
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
     </body>
 </html>
